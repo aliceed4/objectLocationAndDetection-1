@@ -23,7 +23,7 @@ from torch.nn import functional as F
 import os
 import time
 from sklearn.metrics.pairwise import pairwise_distances
-from sklearn.neighbors.kde import KernelDensity
+from sklearn.neighbors import KernelDensity
 import skimage.io
 from matplotlib import pyplot as plt
 from torch import nn
